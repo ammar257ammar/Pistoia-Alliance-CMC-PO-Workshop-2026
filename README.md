@@ -2,7 +2,9 @@
  
 > **Workshop:** *From Recipes to Knowledge Graphs: A Hands-On Intro to the CMC Process Ontology*  
 > **Event:** Pistoia Alliance Annual Conference  
-> **Date:** 15 April 2026 · London, UK
+> **Date:** 15 April 2026 · London, UK  
+> **Main host:** Birthe Nielsen  
+> **Co-hosts:** Mattew Walker, Ammar Ammar
  
 ---
  
