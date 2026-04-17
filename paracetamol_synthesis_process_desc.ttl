@@ -1,0 +1,222 @@
+@prefix cmcpo: <https://spec.pistoiaalliance.org/cmc/ontology/> .
+@prefix ex: <http://example.org/paracetamol-recipe/> .
+@prefix iof: <https://spec.industrialontologies.org/ontology/core/Core/> .
+@prefix iofc: <https://spec.industrialontologies.org/ontology/construct/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Act_111_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_11_Prepare ;
+    rdfs:comment "1. Verify reactor cleanliness and calibration" .
+
+ex:Act_112_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_11_Prepare ;
+    rdfs:comment "2. Check temperature controller calibration (within 7 days)" .
+
+ex:Act_113_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_11_Prepare ;
+    rdfs:comment "3. Verify agitator operation (all speeds)" .
+
+ex:Act_114_Prepare_Equipment a iofc:RecipeProcessAction ;
+    rdfs:label "Prepare Equipment" ;
+    obo:BFO_0000177 ex:Op_11_Prepare ;
+    rdfs:comment "4. Establish nitrogen blanketing system" .
+
+ex:Act_115_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_11_Prepare ;
+    rdfs:comment "5. Record equipment status: ✓ Clean ✓ Calibrated ✓ Functional" .
+
+ex:Act_121_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_12_Staging ;
+    rdfs:comment "1. Verify 4-aminophenol identity and release status" .
+
+ex:Act_122_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_12_Staging ;
+    rdfs:comment "2. Check acetic anhydride purity certificate (≥99.0%)" .
+
+ex:Act_123_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_12_Staging ;
+    rdfs:comment "3. Confirm deionized water conductivity (≤1.3 μS/cm)" .
+
+ex:Act_124_Measure a iofc:RecipeProcessAction ;
+    rdfs:label "Measure" ;
+    obo:BFO_0000177 ex:Op_12_Staging ;
+    rdfs:comment "4. Weigh all materials and record actual quantities" .
+
+ex:Act_125_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_12_Staging ;
+    rdfs:comment "5. Stage materials in order of addition" .
+
+ex:Act_126_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_12_Staging ;
+    rdfs:comment "Room Temperature: ___°C (Target: 20±5°C)" .
+
+ex:Act_127_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_12_Staging ;
+    rdfs:comment "Relative Humidity: ___%RH (Target: ≤65%)" .
+
+ex:Act_128_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_12_Staging ;
+    rdfs:comment "Adequate ventilation: □ Confirmed" .
+
+ex:Act_131_Charge a iofc:RecipeProcessAction ;
+    rdfs:label "Charge" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Charge pre-determined quantity of deionized water to reactor" .
+
+ex:Act_132_Set a iofc:RecipeProcessAction ;
+    rdfs:label "Set" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Start agitation at pre-specified rpm" .
+
+ex:Act_133_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Record water lot number: _____" .
+
+ex:Act_134_Measure a iofc:RecipeProcessAction ;
+    rdfs:label "Measure" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Water conductivity: _____ μS/cm (Spec: ≤1.3)" .
+
+ex:Act_135_Charge a iofc:RecipeProcessAction ;
+    rdfs:label "Charge" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Add pre-determined quantity of 4-aminophenol while maintaining agitation" .
+
+ex:Act_136_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Actual weight added: _____ kg" .
+
+ex:Act_137_Set a iofc:RecipeProcessAction ;
+    rdfs:label "Set" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Heat to 40°C for dissolution" .
+
+ex:Act_138_Set a iofc:RecipeProcessAction ;
+    rdfs:label "Set" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Time to complete dissolution: _____ minutes" .
+
+ex:Act_139_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_13_Fill ;
+    rdfs:comment "Visual confirmation of complete dissolution: □ Confirmed" .
+
+ex:Act_141_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_14_Fill ;
+    rdfs:comment "Confirm reactor temperature: ____°C (Target: 25±5°C)" .
+
+ex:Act_142_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_14_Fill ;
+    rdfs:comment "Verify agitation rate: pre-specified rpm" .
+
+ex:Act_143_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_14_Fill ;
+    rdfs:comment "Check nitrogen flow rate: Adequate" .
+
+ex:Act_144_Confirm a iofc:RecipeProcessAction ;
+    rdfs:label "Confirm" ;
+    obo:BFO_0000177 ex:Op_14_Fill ;
+    rdfs:comment "Confirm cooling system operational" .
+
+ex:Act_145_Charge a iofc:RecipeProcessAction ;
+    rdfs:label "Charge" ;
+    obo:BFO_0000177 ex:Op_14_Fill ;
+    rdfs:comment "Begin acetic anhydride addition at specified rate" .
+
+ex:Act_146_Set a iofc:RecipeProcessAction ;
+    rdfs:label "Set" ;
+    obo:BFO_0000177 ex:Op_14_Fill ;
+    rdfs:comment "Critical: Monitor temperature continuously. If temperature >40°C: Reduce addition rate or increase cooling. If temperature >45°C: STOP addition and cool to <40°C" .
+
+ex:Act_147_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_14_Fill ;
+    rdfs:comment "Record maximum temperature reached:____°C" .
+
+ex:Act_151_Set a iofc:RecipeProcessAction ;
+    rdfs:label "Set" ;
+    obo:BFO_0000177 ex:Op_15_React ;
+    rdfs:comment "After complete acetic anhydride addition, heat to 85°C" .
+
+ex:Act_152_Set a iofc:RecipeProcessAction ;
+    rdfs:label "Set" ;
+    obo:BFO_0000177 ex:Op_15_React ;
+    rdfs:comment "Heating rate: 1°C/min (target)" .
+
+ex:Act_153_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_15_React ;
+    rdfs:comment "Time to reach 85°C: _____ minutes" .
+
+ex:Act_154_Hold a iofc:RecipeProcessAction ;
+    rdfs:label "Hold" ;
+    obo:BFO_0000177 ex:Op_15_React ;
+    rdfs:comment "Maintain agitation at prespecified rpm" .
+
+ex:Act_155_Hold a iofc:RecipeProcessAction ;
+    rdfs:label "Hold" ;
+    obo:BFO_0000177 ex:Op_15_React ;
+    rdfs:comment "Hold at 85±5°C for exactly 2.0 hours" .
+
+ex:Act_156_Record a iofc:RecipeProcessAction ;
+    rdfs:label "Record" ;
+    obo:BFO_0000177 ex:Op_15_React ;
+    rdfs:comment "Record temperature every 15 minutes:" .
+
+ex:ParacetamolAPISynthesis a iof:PlanSpecification ;
+    rdfs:label "Paracetamol API Synthesis Process Description" .
+
+<http://example.org/paracetamol-recipe/process/operation/Prepare> a cmcpo:CMC_1000121 .
+
+<http://example.org/paracetamol-recipe/process/operation/React> a cmcpo:CMC_1000140 .
+
+<http://example.org/paracetamol-recipe/process/stage/Synthesis> a <http://purl.allotrope.org/ontologies/process#AFP_0001348> .
+
+<http://example.org/paracetamol-recipe/process/operation/Fill> a cmcpo:CMC_1000167 .
+
+ex:Op_11_Prepare a iofc:RecipeProcessOperation ;
+    rdfs:label "Op 11: Prepare" ;
+    obo:BFO_0000177 ex:Stage_1_Synthesis ;
+    iof:prescribes <http://example.org/paracetamol-recipe/process/operation/Prepare> .
+
+ex:Stage_1_Synthesis a iofc:RecipeProcessStage ;
+    rdfs:label "Stage 1: Synthesis" ;
+    obo:BFO_0000177 ex:ParacetamolAPISynthesis ;
+    iof:prescribes <http://example.org/paracetamol-recipe/process/stage/Synthesis> .
+
+ex:Op_15_React a iofc:RecipeProcessOperation ;
+    rdfs:label "Op 15: React" ;
+    obo:BFO_0000177 ex:Stage_1_Synthesis ;
+    iof:prescribes <http://example.org/paracetamol-recipe/process/operation/React> .
+
+ex:Op_14_Fill a iofc:RecipeProcessOperation ;
+    rdfs:label "Op 14: Fill" ;
+    obo:BFO_0000177 ex:Stage_1_Synthesis ;
+    iof:prescribes <http://example.org/paracetamol-recipe/process/operation/Fill> .
+
+ex:Op_12_Staging a iofc:RecipeProcessOperation ;
+    rdfs:label "Op 12: Staging" ;
+    obo:BFO_0000177 ex:Stage_1_Synthesis .
+
+ex:Op_13_Fill a iofc:RecipeProcessOperation ;
+    rdfs:label "Op 13: Fill" ;
+    obo:BFO_0000177 ex:Stage_1_Synthesis ;
+    iof:prescribes <http://example.org/paracetamol-recipe/process/operation/Fill> .
+
