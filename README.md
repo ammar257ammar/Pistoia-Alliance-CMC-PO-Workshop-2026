@@ -4,7 +4,7 @@
 > **Event:** Pistoia Alliance Annual Conference  
 > **Date:** 15 April 2026 · London, UK  
 > **Main host:** Birthe Nielsen  
-> **Co-hosts:** Mattew Walker, Ammar Ammar
+> **Co-hosts:** Matthew Walker, Ammar Ammar
  
 ---
  
